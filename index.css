@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Gideon+Roman&family=Merriweather:ital,wght@0,700;1,400&family=Redressed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+main{
+    background-color: black;
+    width: 106vw;
+}
+header{
+    background-color: greenyellow;
+    height: 30px;
+    font-size: medium;
+    /* width: 797px; */
+    position: sticky;
+    top: 0%;
+    width: 107vw;
+}
+nav  ul li{
+    display: inline;
+    list-style: none;
+    padding: 0 7px;
+
+}
+nav ul li a{
+    display: inline;
+    color: black;
+    font-family:  'Gideon Roman', cursive;
+    font-size: x-large;
+   
+}
+nav ul li a:hover{
+    color: red;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    /* width: 100vw; */
+}
+.searchbar input{
+    height: 15px;
+    width: 130px;
+    border-radius: 5px;
+    margin: 0 10px 0 6px;
+    background-color:lightgreen;
+    color: black;
+    padding: 0 12px;
+    
+}
+.btn{
+    padding: 1px 6px;
+    border-radius: 6px;
+    width: 63px;
+    border-color: black;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: bold;
+}
+.btn :hover{
+    color: black;
+    font-weight: bold;
+}
+.container{
+    min-height: calc(100vh - 50px - 10px);
+}
+.slider{
+    /* margin: auto; */
+    width: 100vw;
+    margin: 12px auto;
+}
+.cart{
+    max-width: 91vw;
+    margin: auto;
+    font-family: 'Gideon Roman', cursive;
+}
+.cart1{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+    /* align-items: center; */
+}
+
+.cart h4{
+    display: flex;
+    /* font-style: italic; */
+    /* overflow: hidden; */
+    text-align: center;
+    color: white;
+    font-family:  'Gideon Roman', cursive;
+    font-size: medium;
+}
+.cart_items{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
+    /* overflow: hidden; */
+    margin: 0 12px;
+}
+
+.text-center {
+    align-items: center;
+    width: 3vw;
+}
+.offer p{
+    color: white;
+}
+.offer p a{
+    color: yellowgreen;
+}
+.copyrights{
+    display: inline;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    background-color: greenyellow;
+    width: 107%;
+}
+.copyrights p{
+    background-color:greenyellow;
+    color: black;
+    height: 30px;
+    width: 107vw;
+}
